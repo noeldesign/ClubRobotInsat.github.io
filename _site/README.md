@@ -28,18 +28,3 @@ sudo gem install --conservative --no-ri --no-rdoc gsl
 
 bundler update
 ```
-
-Enfin, en étant à la racine du répertoire `clubrobotinsat.github.io`, il faut exécuter la commande suivante :
-
-```bash
-bundler exec jekyll serve --safe
-```
-
-Le site est alors visualisable sur `localhost:4000` si tout s'est bien passé.
-
-## Fichiers utiles
-
-* `_config.yml` : ensemble des méta-données du site
-* `Gemfile` : il faut rajouter les modules gem utilisés là-dedans
-* `club-robot-insat.md` : le fichier affiché dans l'onglet **About**
-* `_posts/` : les documents dedans servent de blog : on peut faire des articles / annonces pour le club et elles sont facilement répertoriables avec des tags

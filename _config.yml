@@ -1,0 +1,75 @@
+title:            Club de Robotique - INSA Toulouse
+description:      Club Robot
+logo:             logo.png
+disqus_shortname: club-robot-insat
+share:            true
+# Change url to your domain. Leave localhost server or blank when working locally.
+# or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same
+# whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
+#url:        	  http://clubrobotinsat.github.io
+
+# Owner/author information
+owner:
+  name:           club-robot
+  avatar:         avatar.png
+  email:          club.robot@amicale-insat.fr
+  # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
+  description:    Association étudiante autour de la robotique
+  # Social networking links used in footer. Update and remove as you like.
+  # twitter:        mytwitter
+  facebook:       ClubRobotINSAT
+  github:         clubrobotinsat
+  # instagram:      myinsta
+  # For Google Authorship https://plus.google.com/authorship
+  # google_plus:    https://plus.google.com/u/0/102602916593522619858
+
+# Analytics and webmaster tools stuff goes here
+google_analytics:
+google_verify:
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Links to include in footer navigation
+# For external links add external: true
+links:
+  - title: About
+    url: /club-robot-insat
+    external: false
+    icon: home
+  - title: Featured Posts
+    url: /featured
+  - title: Categories
+    url: /categories
+  #- title: About
+  #  url: /club-robot-insat
+  - title: Doc
+    url: https://clubrobotinsat.github.io/doc/
+    external: true
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    Europe/Paris
+future:      true
+highlighter: pygments
+markdown:    kramdown
+paginate:    5
+paginate_path: "page:num"
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+  coderay:
+    coderay_line_numbers:
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
