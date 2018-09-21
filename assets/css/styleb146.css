@@ -310,23 +310,23 @@ nav.pagination {
     font-size: 0.8125rem;
     padding-top: 3.75rem;
     padding-bottom: 1.25rem; }
-    .summer-site-footer .copyright a {
+  .summer-site-footer .copyright a {
       color: white; }
   .summer-site-footer .social-icons {
     text-align: center;
     float: none;
     padding-bottom: 3.75rem; }
-    .summer-site-footer .social-icons a {
+  .summer-site-footer .social-icons a {
       color: black; }
   .summer-site-footer .sponsors {
     float: none;
     text-align: center;
     font-size: 0.8125rem;
-    padding-top: 3.75rem;
+    padding-top: 2rem;
     padding-bottom: 2rem;
   }
   .summer-site-footer .sponsors img {
-    max-width: 100px;
+    max-width: 200px;
     height: auto;
   }
   @media only screen and (min-width: 70em) {
@@ -340,6 +340,10 @@ nav.pagination {
     .summer-site-footer .social-icons {
       text-align: right;
       float: right; }
+    .summer-site-footer .sponsors {
+      text-align: center;
+      float:left;
+      copyright: 2rem; }
      }
 
 .fadeInDown {
