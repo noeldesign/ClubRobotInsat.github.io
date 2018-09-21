@@ -43,3 +43,14 @@ Le site est alors visualisable sur `localhost:4000` si tout s'est bien passé.
 * `Gemfile` : il faut rajouter les modules gem utilisés là-dedans
 * `club-robot-insat.md` : le fichier affiché dans l'onglet **About**
 * `_posts/` : les documents dedans servent de blog : on peut faire des articles / annonces pour le club et elles sont facilement répertoriables avec des tags
+* `_drafts` : il faut commencer à rédiger les articles là-dedans, il faut ensuite appeler une commande pour les ûblier directement
+
+## Ecrire des articles
+
+1. Dans `_drafts`, copier un template en le renommant
+2. Modifier les paramètres dans le header du fichier
+3. Rédiger l'article
+4. Une fois que tout est prêt, il est temps de publier :
+    * vérifier localement que tout est bon avec les drafts : `bundler exec jekyll serve --watch --drafts`
+    * publier un draft : `bundle exec jekyll publish _drafts/my-new-draft.md`
+    * publier un draft avec une date spécifique : `bundle exec jekyll publish _drafts/my-new-draft.md --date 2018-01-18`
