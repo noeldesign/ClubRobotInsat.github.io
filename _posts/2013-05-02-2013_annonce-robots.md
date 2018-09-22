@@ -3,18 +3,16 @@ layout: post
 published: true
 title: "Chronos & Pan"
 mathjax: false
-featured: true
+featured: false
 comments: false
 type: article
 description: "Annonce des robots 2013"
 headline: "Robots 2013"
 modified:
-tags: 
+tags:
 categories: [Robots]
 share: true
 ---
-
-# Présentation des robots 2013 : Chronos & Pan
 
 Nous sommes fiers de vous présenter nos deux robots 2013, Chronos (le robot principal) et Pan (le robot secondaire).
 

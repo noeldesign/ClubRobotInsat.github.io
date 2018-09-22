@@ -24,7 +24,7 @@ owner:
   # google_plus:    https://plus.google.com/u/0/102602916593522619858
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:
+google_analytics: UA-126252623-1
 google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
@@ -36,8 +36,8 @@ links:
     url: /club-robot-insat
     external: false
     icon: home
-  #- title: Featured Posts
-  #  url: /featured
+  - title: Featured Posts
+    url: /featured
   - title: Categories
     url: /categories
   #- title: About
