@@ -1,22 +1,16 @@
 ---
 layout: post
 published: true
-title: "Règlement 2019"
+title: "Coupe 2019 - Atom Factory"
 mathjax: false
 featured: true
 comments: false
-video: ""
 type: video
 description: "Annonce du règlement de la Coupe de France de Robotique 2019"
 headline: "Règlement 2019"
 modified:
 tags: [reglement]
-categories:
-  - reglement
-image:
-  feature: ""
-  credit:
-  creditlink:
+categories: [Règlements]
 share: true
 ---
 
