@@ -298,7 +298,6 @@ nav.pagination {
 
 .summer-site-footer {
   background: black; }
-  .summer-site-footer .social-icons,
   .summer-site-footer .copyright {
     width: 100%;
     padding: 0;
@@ -310,41 +309,47 @@ nav.pagination {
     font-size: 0.8125rem;
     padding-top: 3.75rem;
     padding-bottom: 1.25rem; }
-  .summer-site-footer .copyright a {
-      color: white; }
-  .summer-site-footer .social-icons {
-    text-align: center;
-    float: none;
-    padding-bottom: 3.75rem; }
-  .summer-site-footer .social-icons a {
-      color: black; }
+      .summer-site-footer .copyright a {
+          color: white; }
   .summer-site-footer .sponsors {
     float: none;
     text-align: center;
     font-size: 0.8125rem;
     padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
-  .summer-site-footer .sponsors img {
-    max-width: 200px;
-    height: auto;
-  }
+    padding-bottom: 2rem; }
+      .summer-site-footer .sponsors img {
+          max-height: 80px;
+          width: auto; }
+  .summer-site-footer .social-icons {
+    text-align: center;
+    float: none;
+    padding-bottom: 3.75rem; }
+      .summer-site-footer .social-icons a {
+          color: black; }
+
   @media only screen and (min-width: 70em) {
     .summer-site-footer .social-icons,
     .summer-site-footer .copyright {
-      width: 49%;
-      padding: 5rem; }
+      width: 30rem;
+      padding-left: 3rem; }
     .summer-site-footer .copyright {
       text-align: left;
       float: left; }
+    .summer-site-footer .sponsors {
+      max-width: 45%;
+      text-align: center;
+      float: left;
+      padding-top: 2rem;
+      position: absolute;
+      transform: translate(80%,0%); }
     .summer-site-footer .social-icons {
       text-align: right;
-      float: right; }
-    .summer-site-footer .sponsors {
-      text-align: center;
-      float:left;
-      copyright: 2rem; }
-     }
+      float: right;
+      padding-top: 6rem;
+      padding-right: 2rem;
+      max-width: 15%;
+      width: 15%; }
+  }
 
 .fadeInDown {
   -webkit-animation-duration: 1s;
