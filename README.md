@@ -15,9 +15,10 @@ Pour pouvoir visualiser en local le site, il faut installer `bundler` (un truc e
 Ensuite, ces commandes devraient tout installer :
 
 ```bash
-sudo pip install cheat
+sudo apt install gem curl
 sudo gem install rdoc bundler jekyll
 
+cd /tmp
 curl -O http://mirror.veriportal.com/gnu/gsl/gsl-2.5.tar.gz
 tar xvzf gsl-2.5.tar.gz
 cd gsl-2.5
