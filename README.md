@@ -1,6 +1,6 @@
 # Site Internet du Club Robot
 
-Ce nouveau site a pour but de remplacer l'[ancien site](https://etud.insa-toulouse.fr/~club_robot/), totalement dépassé et pas mis à jour.
+Ce [nouveau site](http://clubrobotinsat.github.io/) a pour but de remplacer l'[ancien site](https://etud.insa-toulouse.fr/~club_robot/), totalement dépassé et pas mis à jour.
 
 Il a plusieurs objectifs :
 * le rendre bien plus maintenable
